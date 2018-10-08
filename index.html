@@ -45,27 +45,56 @@
     </div>
     <!-- instructions box end -->
 
-    <!-- randomly generated total start -->
-    <div class="randomGen"></div>
+    <!-- randomly generated total and Wins/losses start -->
 
-    <!-- randomly generated total end -->
+    <div>
+        <div class="col-lg-3">
+            <p id="randomTotal"></p>
+        </div>
+        <div class="winsLossesTotal col-lg-3">
+            <p id="wins-text"></p>
+            <p id="losses-text"></p>
+        </div>
+    </div>
 
-
-    <!-- Win/lose box start -->
-
-    <!-- win/lose box end -->
-
-<script type="text/javascript">
-
-  var randomGen = [];
-
-    function randomGen() {
-        var x = document.getElementById("random")
-        x.innerHTML = Math.floor((Math.random() * 120) + 12);
-    }
+    <!-- randomly generated total and Wins/losses finish -->
 
 
-</script>
+    <!-- total score text -->
+    <div class="row col-lg-12">
+        <div class="total">
+            <p id="totalScore-text"></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var wins = 0;
+        var losses = 0;
+        var totalScore = 0;
+
+        var winsText = document.getElementById("wins-text");
+        var lossesText = document.getElementById("losses-text");
+        var totalScoreText = document.getElementById("totalScore-text");
+
+        //    Random number total
+        document.getElementById("randomTotal").innerHTML = Math.floor(Math.random() * 120) + 12;
+
+
+        //   text on page
+        winsText.textContent = "Wins: " + wins;
+        lossesText.textContent = "Losses: " + losses;
+        totalScoreText.textContent = "Your Total Score Is: " + totalScore;
+
+
+    </script>
 
 
 
