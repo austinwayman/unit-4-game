@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CrystalsCollector!</title>
 
-    <!-- Added link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -60,12 +59,41 @@
     <!-- randomly generated total and Wins/losses finish -->
 
 
-    <!-- total score text -->
-    <div class="row col-lg-12">
-        <div class="total">
-            <p id="totalScore-text"></p>
+    <!-- Gems start -->
+    <div class="gemContainer">
+        <div class="row">
+            <div class="col-lg-3 gems">
+                <div id="gem1"></div>
+            </div>
+            <div class="col-lg-3">
+                <div id="gem2"></div>
+            </div>
+            <div class="col-lg-3">
+                <div id="gem3"></div>
+            </div>
+            <div class="col-lg-3">
+                <div id="gem4"></div>
+            </div>
         </div>
     </div>
+        <!-- Gems end-->
+
+        <!-- total score text -->
+        <div class="row col-lg-12">
+            <div class="total">
+                <p id="totalScore-text"></p>
+            </div>
+        </div>
+        <!-- end of total score text -->
+
+
+
+
+
+
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js">
 
 
 
@@ -73,28 +101,7 @@
 
 
 
-
-    <script type="text/javascript">
-
-        var wins = 0;
-        var losses = 0;
-        var totalScore = 0;
-
-        var winsText = document.getElementById("wins-text");
-        var lossesText = document.getElementById("losses-text");
-        var totalScoreText = document.getElementById("totalScore-text");
-
-        //    Random number total
-        document.getElementById("randomTotal").innerHTML = Math.floor(Math.random() * 120) + 12;
-
-
-        //   text on page
-        winsText.textContent = "Wins: " + wins;
-        lossesText.textContent = "Losses: " + losses;
-        totalScoreText.textContent = "Your Total Score Is: " + totalScore;
-
-
-    </script>
+        </script>
 
 
 

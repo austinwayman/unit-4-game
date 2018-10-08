@@ -44,7 +44,7 @@ header {
     background: teal;
     color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     text-align: left;
     height: 75px;
     width: 240px;
@@ -53,4 +53,16 @@ header {
 
 p {
     margin-bottom: 0px;
+}
+
+.gemContainer {
+    margin: 20px;
+    float: left;
+    width: 500px;
+}
+
+.gemClass {
+    padding: 10px;
+    border: dotted 1px grey;
+    margin: 5px;
 }
