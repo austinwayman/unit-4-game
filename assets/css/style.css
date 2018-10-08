@@ -15,11 +15,11 @@ header {
     width: 500px;
 }
 
-#randomTotal {
+#randomNumber {
     background: palegreen;
     color: purple;
     padding: 10px;
-    margin: 0px 20px 20px 5px;
+    margin: 0px 20px 20px 35px;
     width: 240px;
     height: 120px;
     font-size: 55px;
@@ -43,13 +43,24 @@ header {
 .total {
     background: teal;
     color: white;
+    padding: 10px 20px 10px 10px;
+    margin: 0px 20px 5px 20px;
+    text-align: left;
+    width: 240px;
+    font-size: 21px;
+}
+
+.scoreDisplay {
+    background: teal;
+    color: white;
     padding: 20px;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 35px;
     text-align: left;
     height: 75px;
     width: 240px;
     font-size: 21px;
 }
+
 
 p {
     margin-bottom: 0px;
