@@ -1,36 +1,47 @@
 header {
-    color: white;
-    background: darkorange;
+    color: navy;
+    background: white;
+    border: dotted black 2px;
+    opacity: 0.5;
     padding: 10px;
-    width: 350px;
-    margin: 20px;
+    margin: 0;
+    text-align: center;
 
 }
+body {
+    background-size: cover;
+}
+
 
 .instructions {
-    color: green;
-    background: peachpuff;
+    color: black;
+    background: white;
+    border: dotted black 2px;
+    opacity: 0.7;
     padding: 10px;
     margin: 20px;
-    width: 500px;
+    font-size: 17px;
 }
 
 #randomNumber {
-    background: palegreen;
-    color: purple;
+    background: white;
+    opacity: 0.7;
+    color: black;
     padding: 10px;
     margin: 0px 20px 20px 35px;
     width: 240px;
     height: 120px;
     font-size: 55px;
-    border: 5px dashed orange;
+    border: 5px dashed green;
     text-align: center;
     float:left;
 }
 
 .winsLossesTotal {
-    background: lightblue;
-    color: green;
+    background: white;
+    border: dotted black 2px;
+    opacity: 0.7;
+    color: black;
     padding: 20px;
     margin: 0px 20px 20px 0px;
     width: 240px;
@@ -41,24 +52,29 @@ header {
 }
 
 .total {
-    background: teal;
-    color: white;
+    background: white;
+    border: dotted black 2px;
+    border-bottom: none;
+    opacity: 0.7;
+    color: black;
     padding: 10px 20px 10px 10px;
-    margin: 0px 20px 5px 20px;
-    text-align: left;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
     width: 240px;
-    font-size: 21px;
+    font-size: 25px;
 }
 
 .scoreDisplay {
-    background: teal;
-    color: white;
-    padding: 20px;
+    background: white;
+    border: dotted black 2px;
+    border-top: none;
+    opacity: 0.7;
+    color: black;
     margin: 0px 20px 20px 35px;
-    text-align: left;
+    text-align: center;
     height: 75px;
     width: 240px;
-    font-size: 21px;
+    font-size: 50px;
 }
 
 
